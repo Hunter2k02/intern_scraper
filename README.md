@@ -1,1 +1,1 @@
-# InternScrapper
+# pracuj.pl_WebScraper
