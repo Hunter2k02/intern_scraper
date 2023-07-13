@@ -1,16 +1,12 @@
 from Scrapper import Scrapper
 
-titles1 = []
-titles2 = []
 
 Scrap = Scrapper()
 
 titles1 = Scrap.pracuj()
+#titles2 = Scrap.noFluffJobs()
 
-for title in titles1:
-    for value in title.values():
-        print(value)
-    print()
-    
+
+# print(titles1['pracuj']['Internship Global Security'])
 
 

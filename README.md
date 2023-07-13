@@ -1,5 +1,6 @@
-Version 0.1
+# InternWebScraper
+# Version 0.2
 
-Under Construction
-
-Scrapper for it interns
+# Creators:
+# Szymon Fit - https://github.com/SzymonFit
+# Filip Sanecki - https://github.com/Hunter2k02
