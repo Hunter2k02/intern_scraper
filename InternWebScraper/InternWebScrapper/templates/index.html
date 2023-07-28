@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Scrapper</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    {% for key, value in content.items() %}
+    <h1>{{ key }}</h1>
+    <br>
+    {% for item in value %}
+    <a href= {{ item["link"] }}>{{ item["title"] }}</a>
+    <br>
+    {% endfor %}
+    {% endfor %}
+ 
+</body>
+</html>

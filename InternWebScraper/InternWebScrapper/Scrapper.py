@@ -5,7 +5,7 @@ import json
 class Scrapper:
     
     def __init__(self) -> None:
-        self.list_of_urls = ["https://www.pracuj.pl/praca/intern%20it;kw/krakow;wp?rd=0&et=1","https://nofluffjobs.com/pl/krakow?page=1"]
+        self.list_of_urls = ["https://www.pracuj.pl/praca/intern%20it;kw/krakow;wp?rd=0&et=1","https://nofluffjobs.com/pl/krakow?page=1&criteria=seniority%3Dtrainee"]
         self.main_dict = {'pracuj':None, 'nofluffjobs':None}
         self.noFluffJobs()
         self.pracuj()
@@ -77,6 +77,6 @@ class Scrapper:
         with open("plik.json", "w", encoding = "UTF-8") as jf:
             json.dump(self.main_dict, jf, indent = 4, ensure_ascii=False)
             
-if __name__ == "__main__":           
-    scrap = Scrapper()
-    scrap.json()
+# if __name__ == "__main__":           
+#     scrap = Scrapper()
+#     scrap.json()

@@ -1,12 +1,14 @@
 # InternWebScraper
 
+##
+Project is done with VS Code live share
 
 ## Creators
 Szymon Fit - https://github.com/SzymonFit
 Filip Sanecki - https://github.com/Hunter2k02
 
 ## Technologies Used
-Python, unittest, beautifulsoup
+Python, unittest, beautifulsoup, Flask, Jinja2
 
 ## Stages of project work
 
