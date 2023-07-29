@@ -77,6 +77,6 @@ class Scrapper:
         with open("plik.json", "w", encoding = "UTF-8") as jf:
             json.dump(self.main_dict, jf, indent = 4, ensure_ascii=False)
             
-# if __name__ == "__main__":           
-#     scrap = Scrapper()
-#     scrap.json()
+if __name__ == "__main__":           
+    scrap = Scrapper()
+    scrap.json()

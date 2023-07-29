@@ -6,14 +6,16 @@
     <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
+    
     {% for key, value in content.items() %}
-    <h1>{{ key }}</h1>
-    <br>
+    <h1 class={{ key }}>{{ key }}</h1>
+    
     {% for item in value %}
+    <br>
     <a href= {{ item["link"] }}>{{ item["title"] }}</a>
     <br>
     {% endfor %}
     {% endfor %}
- 
+    
 </body>
 </html>
