@@ -3,7 +3,7 @@ from flask import Flask, render_template
 from Scrapper import Scrapper
 import json
 
-sys.path.append("C:/Users/Szymon/Desktop/scrapper")
+sys.path.append("C:/Users/phili/OneDrive/Desktop/Programing/Python/Scraper/InternWebScrapper/Scrapper.py")
 
 app = Flask(__name__)
 

@@ -30,6 +30,8 @@ class TestScrapper(unittest.TestCase):
         for item in self.scraper.main_dict['pracuj']:
             self.assertIn('title', item)
             self.assertIn('link', item)
+        
+        
 
     def test_json(self):
 
@@ -39,6 +41,7 @@ class TestScrapper(unittest.TestCase):
         self.assertTrue(os.path.exists("plik.json"))
         # Clean up after the test
         os.remove("plik.json")
+
 
 if __name__ == "__main__":
     unittest.main()
